@@ -16,7 +16,7 @@ function setup() {
   spookySound.loop();
  tower=createSprite(300,300);
  tower.addImage(towerImg)
- tower.velocityY=1 ;
+ tower.velocityY=2 ;
  ghost=createSprite(200,200,50,50)
  ghost.addImage(ghostImg)
  ghost.scale=0.3
